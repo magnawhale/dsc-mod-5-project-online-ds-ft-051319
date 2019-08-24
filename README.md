@@ -31,7 +31,7 @@ For all of the instances that employed hyperparameter tuning (using GridsearchCV
 
 ## Results
 
-The best model I developed produced a testing accuracy score of 83%. Unfortunately, this came from the vanilla version of SVC (Support Vector Classifier), meaning most of my efforts at building more complicated models were wasted in terms of creating a better classifier (but the technical knowledge gained was priceless!). The second best scores of 82% came from various tuned XGBoost models, so perhaps all of my efforts were not in vain. 
+The best model I developed produced a testing accuracy score of 82%. Unfortunately, this came from the vanilla version of SVC (Support Vector Classifier), meaning most of my efforts at building more complicated models were wasted in terms of creating a better classifier (but the technical knowledge gained was priceless!). 
 
 Although these scores are not bad, more external work will need to be done to properly classify the 17% of KOIs which my model misclassified.
 
